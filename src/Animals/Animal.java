@@ -51,7 +51,7 @@ public class Animal {
         this.name = name;
         this.species = species;
         if (UtilDate.isNotFutureDate(birthDate))
-            this.birthDate = birthDate;
+            this.birthDate = birthDate ;
         this.zone = Zone.CONSERVATION_AND_RESCUE;
     }
 
