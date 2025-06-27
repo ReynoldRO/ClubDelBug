@@ -6,9 +6,12 @@ package Lists;
 
 /**
  *
- * @author USER
+<<<<<<< HEAD
+ * @author Student, Wendy
  */
-public interface List <T>{
-   public boolean add(T t);
- 
+
+public interface List <T> {
+     public boolean add(T t);
+     public T find (Object id);
 }
+
