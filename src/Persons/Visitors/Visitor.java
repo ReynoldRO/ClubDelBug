@@ -24,8 +24,5 @@ public class Visitor extends Person {
     @Override
     public String toString() {
         return "Visitor{" +super.toString()+ '}';
-    }
-    
-    
-    
+    }   
 }
