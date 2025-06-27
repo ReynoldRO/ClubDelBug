@@ -8,6 +8,7 @@ package Lists;
  *
  * @author USER
  */
-public interface List {
-    
+public interface List <T>{
+   public boolean add(T t);
+ 
 }
