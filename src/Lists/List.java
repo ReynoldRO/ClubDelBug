@@ -7,11 +7,11 @@ package Lists;
 /**
  *
 <<<<<<< HEAD
- * @author Student
+ * @author Student, Wendy
  */
 
+
 public interface List <T> {
-    
-    public T find (Object id);
-    
+     public boolean add(T t);
+     public T find (Object id);
 }
