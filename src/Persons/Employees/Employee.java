@@ -13,6 +13,7 @@ import java.time.Period;
  *
  * @author jprod
  */
+
 public abstract class Employee extends Person {
     private Double salary;
 
