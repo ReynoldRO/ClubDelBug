@@ -8,6 +8,10 @@ package Lists;
  *
  * @author AsusVivobook
  */
-public interface List {
-    
-}
+public interface List <T> {
+     public boolean add(T t);
+     public T find (Object id);
+     public boolean remove(T t);
+}     
+
+
