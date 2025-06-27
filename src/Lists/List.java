@@ -13,10 +13,5 @@ package Lists;
 public interface List <T> {
     
     public T find (Object id);
-=======
- * @author USER
- */
-public interface List {
->>>>>>> origin/dev
     
 }
